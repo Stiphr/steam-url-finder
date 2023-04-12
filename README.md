@@ -1,12 +1,12 @@
-Steam ID Availability Checker
+# Steam ID Availability Checker
 
 This is a simple Node.js script that checks the availability of Steam profile IDs by making requests to the Steam Community API. The script generates random 3 character IDs and checks if they are available. If an ID is available, it is saved to found_urls.txt. The script stops running once the desired number of available IDs have been found.
 
-Prerequisites
+# Prerequisites
 Node.js installed on your system
 request and fs modules installed
 
-How to use
+# How to use
 Clone the repository to your local machine
 Install the required modules by running npm install
 Run the script by typing node index.js
